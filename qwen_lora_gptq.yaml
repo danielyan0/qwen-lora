@@ -1,0 +1,5 @@
+model_name_or_path: models/Qwen1.5-7B-Chat-GPTQ-Int4
+adapter_name_or_path: saves/Qwen1.5-7B-Chat/lora/tang
+template: qwen
+finetuning_type: lora
+
