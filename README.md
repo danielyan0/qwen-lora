@@ -22,11 +22,17 @@ GPU：Arc 790（微调）/-（推理）
 
 内存：64G （微调）/32G（推理）
 
-### 软件
+### 模型&数据集
 
 基础模型：Qwen1.5-7B-Chat
 
 微调数据集：唐诗（https://github.com/chinese-poetry/chinese-poetry/tree/master/%E5%85%A8%E5%94%90%E8%AF%97）
+
+### Intel软件工具
+
+1. **[intel-extension-for-pytorch](https://github.com/intel/intel-extension-for-pytorch)**
+2. **[intel-extension-for-deepspeed](https://github.com/intel/intel-extension-for-deepspeed)**
+3. **[neural-compressor](https://github.com/intel/neural-compressor)**
 
 ## 环境准备
 
